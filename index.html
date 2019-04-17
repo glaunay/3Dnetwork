@@ -1,0 +1,31 @@
+<head>
+    <script src="node_modules/go-chart/dist/go-chart.js"></script>
+    <script src="node_modules/network-table/dist/network-table.js"></script>
+    <script src="node_modules/3d-force-graph/dist/3d-force-graph.min.js"></script>
+    
+    <!-- <script src="//unpkg.com/3d-force-graph"></script>-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/qwest/4.4.5/qwest.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.4/papaparse.min.js"></script>
+    <!-- to test 3D graph customisation
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <script src="data-set-loader.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="graph-data">
+        <span id="graph-data-description"></span>
+        <button class="toggle-data-btn" onClick="toggleData()">Show me something else</button>
+    </div>
+    <div id="3d-graph" style="z-index:1"></div>
+    
+    <go-chart id="gochart"></go-chart>
+    <network-table id="network-table" style="position: absolute;top:0;left:0"></network-table>
+    
+    <script src="index.js"></script>
+
+</body>

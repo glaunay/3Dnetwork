@@ -1,0 +1,26 @@
+{
+  "name": "3dnetwork",
+  "version": "1.0.0",
+  "description": "Three JS based network viz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glaunay/3Dnetwork.git"
+  },
+  "author": "GL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glaunay/3Dnetwork/issues"
+  },
+  "homepage": "https://github.com/glaunay/3Dnetwork#readme",
+  "dependencies": {
+    "3d-force-graph": "^1.45.6",
+    "express": "^4.16.4",
+    "go-chart": "0.0.3",
+    "network-table": "^1.0.5",
+    "three": "^0.103.0"
+  }
+}
